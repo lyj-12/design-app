@@ -5,6 +5,7 @@
 <template>
   <div>
     111
+    <Editor />
   </div>
 </template>
 
