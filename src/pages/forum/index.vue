@@ -3,7 +3,9 @@
 </script>
 
 <template>
-  <div>index</div>
+  <div>
+    111
+  </div>
 </template>
 
 <style lang='scss' scoped>

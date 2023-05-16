@@ -1,5 +1,6 @@
-import type { MaterialCommentPage, MaterialDetail, MatericalCategory } from '~/types'
+import type { MaterialCommentPage, MaterialDetail, Materical, MatericalCategory, Page, PageParams } from '~/types'
 import request from '~/composables/request'
+
 /**
  *
  * @returns 素材二级分类
@@ -8,9 +9,9 @@ export function getMaterialCategory() {
   return request.get<MatericalCategory[]>('/material/category')
 }
 
-// export function getHotMaterials(page: PageParams) {
-//   return request.get<Page<Materical>[]>('/material/show/pages', { ...page })
-// }
+export function getHotMaterials(page: PageParams) {
+  return request.get<Page<Materical>[]>('/material/show/pages', { ...page })
+}
 
 export function getMaterialDetails(id: any) {
   return request.get<MaterialDetail>(`/material/show/detail/${id}`)

@@ -1,8 +1,12 @@
 <script lang='ts' setup>
-import { getMaterialDetails } from '~/api/material'
+import { getHotMaterials } from '~/api/material'
 
+const page = {
+  pageNum: 1,
+  pageSize: 20,
+}
 function init() {
-  const res = getMaterialDetails(1)
+  const res = getHotMaterials(page)
   console.log(res)
 }
 init()

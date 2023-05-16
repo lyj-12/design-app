@@ -6,11 +6,20 @@
   <div class="header h-15 flex items-center bg-black text-light-50">
     <!-- 网站Logo -->
     <router-link to="/" class="ml-6">
-      This is a Logo!
+      室内装修设计
     </router-link>
     <div class="flex-grow" />
     <!-- 导航栏 -->
     <nav class="navbar mr-6">
+      <router-link to="/material" class="ml-2">
+        素材
+      </router-link>
+      <router-link to="/course" class="ml-2">
+        课程
+      </router-link>
+      <router-link to="/forum" class="ml-2">
+        论坛
+      </router-link>
       <router-link to="/about" class="ml-2">
         关于
       </router-link>
