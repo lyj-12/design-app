@@ -1,11 +1,11 @@
 <script lang='ts' setup>
-
+const route = useRoute()
+const id = route.params.id
 </script>
 
 <template>
   <div>
-    111
-    <Editor />
+    materialId：{{ id }}
   </div>
 </template>
 

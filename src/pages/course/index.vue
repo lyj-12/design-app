@@ -4,7 +4,7 @@
 
 <template>
   <div>
-    111
+    课程
   </div>
 </template>
 

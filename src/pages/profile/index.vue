@@ -4,8 +4,9 @@
 
 <template>
   <div>
-    wode
+    我的
   </div>
 </template>
 
 <style lang='scss' scoped>
+</style>
