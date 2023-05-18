@@ -21,6 +21,21 @@ import VueMacros from 'unplugin-vue-macros/vite'
 import WebfontDownload from 'vite-plugin-webfont-dl'
 
 export default defineConfig({
+  server: {
+    port: 3000,
+    open: true,
+    // 配置代理
+    proxy: {
+      '/api': {
+        target: 'http://139.9.94.55:11112',
+        // target: 'http://localhost:11112',
+        ws: true,
+        changeOrigin: true,
+        // 拦截到的请求路径 testaxios/httphwm/getList，/testaxios会被替换成空
+        rewrite: path => path.replace(/^\/api/, ''),
+      },
+    },
+  },
   resolve: {
     alias: {
       '~/': `${path.resolve(__dirname, 'src')}/`,

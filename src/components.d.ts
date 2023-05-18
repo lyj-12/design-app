@@ -10,11 +10,13 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     Comment: typeof import('./components/Comment.vue')['default']
+    CourseDetail: typeof import('./components/CourseDetail.vue')['default']
     Editor: typeof import('./components/Editor.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TheCounter: typeof import('./components/TheCounter.vue')['default']
     TheHeader: typeof import('./components/TheHeader.vue')['default']
     TheSideBar: typeof import('./components/TheSideBar.vue')['default']
+    TheVideo: typeof import('./components/TheVideo.vue')['default']
   }
 }
