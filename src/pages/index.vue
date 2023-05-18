@@ -6,8 +6,8 @@
   <div class="anim header" style="--delay: 0s">
     发现
   </div>
-  <index-blog-component />
-  <index-video-component />
+  <index-blog />
+  <index-video />
 </template>
 
 <style lang='scss' scoped>

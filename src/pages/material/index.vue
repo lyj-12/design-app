@@ -17,7 +17,7 @@ init()
     素材
   </div>
 
-  <material-carousel-component />
+  <material-carousel />
 
   <material-recommend-com />
 </template>
