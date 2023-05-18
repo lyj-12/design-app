@@ -9,8 +9,20 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    CarouselComponent: typeof import('./components/CarouselComponent.vue')['default']
     Comment: typeof import('./components/Comment.vue')['default']
     Editor: typeof import('./components/Editor.vue')['default']
+    ElCarousel: typeof import('element-plus/es')['ElCarousel']
+    ElCarouselItem: typeof import('element-plus/es')['ElCarouselItem']
+    ElDropdown: typeof import('element-plus/es')['ElDropdown']
+    ElDropdownItem: typeof import('element-plus/es')['ElDropdownItem']
+    ElDropdownMenu: typeof import('element-plus/es')['ElDropdownMenu']
+    ElIcon: typeof import('element-plus/es')['ElIcon']
+    IndexBlogComponent: typeof import('./components/IndexBlogComponent.vue')['default']
+    IndexVideoComponent: typeof import('./components/IndexVideoComponent.vue')['default']
+    MaterialCarouselCom: typeof import('./components/MaterialCarouselCom.vue')['default']
+    MaterialCarouselComponent: typeof import('./components/MaterialCarouselComponent.vue')['default']
+    MaterialRecommendCom: typeof import('./components/MaterialRecommendCom.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TheCounter: typeof import('./components/TheCounter.vue')['default']

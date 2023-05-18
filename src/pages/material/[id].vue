@@ -5,7 +5,7 @@ const id = route.params.id
 
 <template>
   <div>
-    materialId：{{ id }}
+    materialId:{{ id }}
   </div>
 </template>
 
