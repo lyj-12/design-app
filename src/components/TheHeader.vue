@@ -12,7 +12,7 @@ function changeStyle() {
       <input type="text" placeholder="轻松查询需要内容~~~" @focusin="changeStyle" @focusout="changeStyle">
     </div>
     <div class="settings">
-      <img class="img" src="../assets/img/head.jpg" alt="">
+      <img class="img" src="../asset/img/head.jpg" alt="">
       <div class="name">
         京茶吉鹿
       </div>

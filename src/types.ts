@@ -33,6 +33,19 @@ export interface Materical {
   createTime: Date
 }
 
+export interface Course {
+  id: number
+  collections: number
+  likes: number
+  views: number
+  preview: string
+  tags: string
+  title: string
+  userAvatar: string
+  username: string
+  createTime: Date
+}
+
 export interface MaterialDetail {
   id: number
   title: string

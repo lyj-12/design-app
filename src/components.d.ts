@@ -11,6 +11,7 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     CarouselComponent: typeof import('./components/CarouselComponent.vue')['default']
     Comment: typeof import('./components/Comment.vue')['default']
+    CourseDetail: typeof import('./components/CourseDetail.vue')['default']
     Editor: typeof import('./components/Editor.vue')['default']
     ElCarousel: typeof import('element-plus/es')['ElCarousel']
     ElCarouselItem: typeof import('element-plus/es')['ElCarouselItem']
@@ -28,5 +29,6 @@ declare module '@vue/runtime-core' {
     TheCounter: typeof import('./components/TheCounter.vue')['default']
     TheHeader: typeof import('./components/TheHeader.vue')['default']
     TheSideBar: typeof import('./components/TheSideBar.vue')['default']
+    TheVideo: typeof import('./components/TheVideo.vue')['default']
   }
 }

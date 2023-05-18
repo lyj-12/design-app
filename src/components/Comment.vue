@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import type { PropType } from 'vue'
-import type { MaterialComment } from '~~/types'
+import type { MaterialComment } from '~/types'
 
 const props = defineProps({
   comment: {
